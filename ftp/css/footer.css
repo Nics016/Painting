@@ -1,0 +1,93 @@
+#main-footer{
+	display: block;
+	margin-top: 30px;
+	height: 260px;
+	background-color: #80B599;
+	border-top: 2px dashed #ccc;
+}
+
+#main-footer .container{
+	padding-top: 50px;
+}
+
+.mainfooter-contacts{
+	display: block;
+	float: left;
+	width: 500px;
+}
+
+.mainfooter-goback{
+	display: block;
+	float: left;
+	margin-left: 80px;
+	width: 380px;
+}
+
+.mainfooter-contacts-title,
+.mainfooter-goback-title{
+	display: block;
+	color: #fff;
+	font-size: 32px;
+	font-family: SegoeUIBold;
+}
+
+.mainfooter-contacts-text{
+	display: block;
+	margin-top: 20px;
+	color: #000;
+	font-size: 18px;
+	font-family: SegoeUIRegular;
+}
+
+.mainfooter-contacts-email:hover{
+	background-color: #444;
+}
+
+.mainfooter-contacts-email{
+	display: block;
+	width: 300px;
+	margin-top: 20px;
+	padding: 5px 5px;
+	background-color: #666;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 18px;
+	font-family: SegoeUIRegular;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: .75px;
+	transition: all .3s ease-in;
+}
+
+.mainfooter-goback-link:first-child{
+	margin-top: 20px;
+}
+
+.mainfooter-goback-link:hover,
+.mainfooter-goback-poweredby:hover{
+	color: black;
+}
+
+.mainfooter-goback-link{
+	display: block;
+	margin-top: 10px;
+	color: #444;
+	font-size: 18px;
+	font-family: SegoeUIRegular;
+	text-decoration: none;
+	letter-spacing: .75px;
+	padding-left: 30px;
+	transition: all .3s ease-in;
+}
+
+.mainfooter-goback-poweredby{
+	display: block;
+	margin-top: 50px;
+	margin-left: 120px;
+	color: #444;
+	font-size: 16px;
+	font-family: SegoeUIRegular;
+	text-decoration: none;
+	font-style: italic;
+	transition: all .3s ease-in;
+}

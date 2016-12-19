@@ -1,0 +1,447 @@
+/* CONSIDERITDONE */
+.consideritdone{
+	display: block;
+	margin-top: 15px;
+}
+
+.consideritdone .container{
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.consideritdone-wrapper{
+	display: block;
+	padding: 30px;
+}
+
+.consideritdone-form{
+	display: block;
+	float: left;
+	padding-bottom: 15px;
+	border-top: 2px solid #666666;
+	border-bottom: 1px solid #999999;
+	width: 320px;
+}
+
+.consideritdone-pic{
+	display: block;
+	float: right;
+	margin-top: 15px;
+	height: 325px;
+	width: 530px;
+}
+
+.consideritdone-form-title{
+	display: block;
+	font-family: SegoeUIRegular;
+	padding: 10px 0;
+	font-size: 20px;
+	color: #000;
+	border-bottom: 2px dotted #999;
+}
+
+.consideritdone-form-line{
+	display: block;
+	margin-top: 15px;
+}
+
+.consideritdone-form-line label{
+	font-size: 16px;
+	font-family: SegoeUIRegular;
+	color: #666;
+}
+
+.consideritdone-form-line label input:focus{
+	background-color: #eee;
+}
+
+.consideritdone-form-line label input,
+.consideritdone-form-line label textarea,
+.consideritdone-form-line label select{
+	padding: 2px;
+	width: 160px;
+	float: right;
+	font-size: 14px;
+	font-family: SegoeUIRegular;
+	color: #000;
+}
+
+.consideritdone-form-line label textarea{
+	width: 162px;
+}
+
+.consideritdone-form-line label select{
+	width: 100px;
+	margin-right: 68px;
+}
+
+.consideritdone-form-line-submit:hover{
+	background-color: #287DDD;
+}
+
+.consideritdone-form-line-submit{
+	display: block;
+	margin: 0 auto;
+	margin-top: 15px;
+	padding: 8px 40px;
+	border-radius: 10px;
+	background-color: #3F93F3;
+	color: #fff;
+	font-size: 18px;
+	font-family: SegoeUIRegular;
+	transition: all .3s ease-in;
+	cursor: pointer;
+}
+
+/* PLUSES */
+.pluses{
+	display: block;
+	margin-top: 30px;
+}
+
+.pluses .container{
+}
+
+.pluses-title{
+	display: block;
+	color: #666;
+	padding: 20px;
+	text-align: center;
+	font-size: 36px;
+	font-family: SegoeUIBold;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.pluses-elements{
+	display: block;
+}
+
+.pluses-elements-item:first-child{
+	margin-left: 0;
+}
+
+.pluses-elements-item{
+	display: block;
+	float: left;
+	height: 450px;
+	padding: 20px;
+	background-color: rgba(255,255,255,1);
+	border-radius: 5px;
+	width: 270px;
+	margin-left: 15px;
+}
+
+.pluses-elements-item-pic{
+	display: block;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.pluses-elements-item-title{
+	display: block;
+	margin-top: 15px;
+	font-size: 30px;
+	font-family: SegoeUIRegular;
+	color: #666;
+	text-align: center;
+}
+
+.pluses-elements-item-text{
+	display: block;
+	margin-top: 5px;
+	text-align: justify;
+	font-size: 22px;
+	font-family: SegoeUIRegular;
+	color: #666;
+}
+
+/* EXPLANATION */
+.explanation{
+	display: block;
+	margin-top: 30px;
+}
+
+.explanation .container{
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 5px;
+}
+
+.explanation-wrapper{
+	padding: 20px;
+}
+
+.explanation-title{
+	display: block;
+	color: #666;
+	padding-top: 15px;
+	text-align: center;
+	font-size: 36px;
+	font-family: SegoeUIBold;
+}
+
+.explanation-element{
+	display: block;
+	margin-top: 50px;
+}
+
+.explanation-element:first-child{
+	margin-top: 30px;
+}
+
+.explanation-element-title{
+	display: block;
+	margin-top: 15px;
+	font-size: 30px;
+	font-family: SegoeUIRegular;
+	color: #666;
+	text-align: center;
+}
+
+.explanation-element-pic{
+	display: block;
+	margin: 15px auto;
+	margin-bottom: 0;
+	width: 850px;
+}
+
+/* REVIEWS */
+.reviews{
+	display: block;
+	margin-top: 30px;
+}
+
+.reviews .container{
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 5px;
+}
+
+.reviews-title{
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	color: #666;
+	padding-top: 30px;
+	text-align: center;
+	font-size: 36px;
+	font-family: SegoeUIBold;
+	border-bottom: 1px dashed #999;
+	padding-bottom: 5px;
+}
+
+.reviews-elements{
+	display: block;
+	margin: 30px auto;
+}
+
+.reviews-elements-item{
+	display: block;
+	float: left;
+	width: 200px;
+	margin-left: 80px;
+}
+
+.reviews-elements-item-pic{
+	display: block;
+	margin: 30px auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.reviews-elements-item-text{
+	display: block;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 18px;
+	font-family: SegoeUIRegular;
+	color: #666;
+}
+
+.reviews-elements-item-stars{
+	display: block;
+	margin: 15px auto;
+	margin-bottom: 30px;
+}
+
+/* TEAM */
+.team{
+	display: block;
+	margin-top: 30px;
+}
+
+.team .container{
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 5px;
+	padding-bottom: 50px;
+}
+
+.team-title{
+	display: block;
+	color: #666;
+	padding-top: 30px;
+	text-align: center;
+	font-size: 36px;
+	font-family: SegoeUIBold;
+	padding-bottom: 5px;
+}
+
+.team-all{
+	display: block;
+}
+
+.team-all-member{
+	display: block;
+	margin-top: 70px;
+}
+
+.team-all-member-face{
+	display: block;
+	float: left;
+	margin-left: 30px;
+	width: 250px;
+}
+
+.team-all-member-face-pic{
+	display: block;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.team-all-member-face-name{
+	display: block;
+	margin-top: 10px;
+	color: #666;
+	text-align: center;
+	font-size: 20px;
+	font-family: SegoeUIBold;
+}
+
+.team-all-member-text{
+	display: block;
+	float: right;
+	margin-top: 30px;
+	margin-right: 50px;
+	width: 600px;
+	color: #666;
+	text-align: justify;
+	font-size: 20px;
+	font-family: SegoeUIRegular;
+	text-indent: 30px;
+}
+
+/* VIDEO */
+.video{
+	display: block;
+	margin-top: 30px;
+}
+
+.video .container{
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 5px;
+}
+
+.video-wrapper{
+	padding: 20px;
+}
+
+.video-title{
+	display: block;
+	color: #666;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 36px;
+	font-family: SegoeUIBold;
+	padding-bottom: 5px;
+}
+
+.video iframe{
+	margin-top: 15px;
+}
+
+/* GETSTARTED */
+.getstarted{
+	display: block;
+	margin-top: 30px;
+}
+
+.getstarted .container{
+	background-color: rgba(77,77,77,0.45);
+	background: url(../img/pluses_bg.jpg) no-repeat;
+	background-size: 175%;
+	background-position-y: -150px;
+	background-position-x: -100px;	
+	border-radius: 5px;
+	padding-bottom: 100px;
+}
+
+.getstarted-title{
+	display: block;
+	color: #fff;
+	padding-top: 100px;
+	text-align: center;
+	font-size: 46px;
+	font-family: SegoeUIBold;
+	letter-spacing: 1px;
+}
+
+.getstarted-text{
+	display: block;
+	width: 600px;
+	margin: 0 auto;
+	color: #fff;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 24px;
+	font-family: SegoeUIRegular;
+	letter-spacing: .75px;
+}
+
+.getstarted-line{
+	display: block;
+	width: 630px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.getstarted-line-input:focus{
+	background-color: #eee;
+}
+
+.getstarted-line-input{
+	display: block;
+	float: left;
+	margin-left: 15px;
+	padding: 10px;
+	width: 400px;
+	font-size: 18px;
+	font-family: SegoeUIRegular;
+	color: #666;
+	border-radius: 5px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.getstarted-line-submit:hover{
+	background-color: #287DDD;
+}
+
+.getstarted-line-submit{
+	display: block;
+	float: left;
+	padding: 10.5px 40px;
+	font-size: 20px;
+	font-family: SegoeUIRegular;
+	color: #fff;
+	border-radius: 5px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	background-color: #3F93F3;
+	transition: all .3s ease-in;
+	cursor: pointer;
+	border: none;
+}

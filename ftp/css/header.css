@@ -1,0 +1,79 @@
+#main-header{
+	display: block;
+}
+
+/*  CALLNOW  */
+.callnow{
+	display: block;
+	margin-top: 30px;
+}
+
+.callnow-logo{
+	display: block;
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.callnow-company{
+	display: block;
+	float: left;
+	padding-top: 30px;
+	color: #fff;
+	font-size: 32px;
+	font-family: SegoeUIBold;
+	text-decoration: none;
+	width: 350px;
+	margin-left: 30px;
+}
+
+.callnow-phone{
+	display: block;
+	float: right;
+	padding-top: 30px;
+	color: #fff;
+	font-size: 32px;
+	font-family: SegoeUIBold;
+	min-width: 200px;
+}
+
+/* TOP-MENU */
+.topmenu{
+	display: block;
+	margin-top: 15px;
+}
+
+.topmenu .container{
+	background-color: #FF8901;
+	border-radius: 5px;
+}
+
+#top-menu{
+	display: block;
+	list-style-type: none;
+	margin: 0 auto;
+	width: auto;
+	padding-left: 30px;
+}
+
+#top-menu li{
+	display: inline-block;
+}
+
+#top-menu li a:hover{
+	background-color: #BC6500;
+}
+
+#top-menu li a{
+	display: block;
+	padding: 15px 20px;
+	text-decoration: none;
+	color: #fff;
+	font-family: SegoeUILight;
+	font-size: 18px;
+	letter-spacing: .75px;
+	text-transform: uppercase;
+	transition: all .3s ease-in;
+}
+
