@@ -2,6 +2,20 @@
 	display: block;
 }
 
+.messagesent{
+	display: none;
+	background-color: #9cf;
+}
+
+.messagesent-text{
+	display: block;
+	color: #fff;
+	font-size: 24px;
+	font-family: SegoeUIBold;
+	padding: 20px 0;
+	text-align: center;
+}
+
 /*  CALLNOW  */
 .callnow{
 	display: block;

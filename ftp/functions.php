@@ -33,6 +33,10 @@ function _s_scripts()
 	wp_deregister_script('jquery');
 	wp_register_script('jquery',  get_template_directory_uri(). '/js/jquery.js');
 	wp_enqueue_script('jquery');
+
+	// Form Validation
+	wp_register_script('form_validation',  get_template_directory_uri(). '/js/request_qoute_form_validation.js');
+	wp_enqueue_script('form_validation');
 }
 
 add_action('wp_enqueue_scripts', '_s_scripts');
@@ -58,6 +62,43 @@ function custom_menu(){
 // Добавляем кнопку добавления миниатюры поста
 add_theme_support( 'post-thumbnails' );
 
-// Добавляем страничку настроек темы
-require_once("options_page.php");
+// Function for stripping tags, etc from input value
+function check_input($data){
+	$data = trim($data);
+	$data = stripcslashes($data);
+	$data = htmlspecialchars($data);
+	return $data;
+}
+
+// Send Email
+add_filter( 'wp_mail_content_type', 'wpdocs_set_html_mail_content_type' );
+ 
+function SendEmail($to, $subject, $body){
+	$headers = array('Content-Type: text/html; charset=UTF-8');
+	 
+	wp_mail( $to, $subject, $body, $headers );
+}
+ 
+// Reset content-type to avoid conflicts -- https://core.trac.wordpress.org/ticket/23578
+remove_filter( 'wp_mail_content_type', 'wpdocs_set_html_mail_content_type' );
+ 
+function wpdocs_set_html_mail_content_type() {
+    return 'text/html';
+}
+
+// Мой тип поста
+add_action( 'init', 'prowp_register_my_post_types' );
+function prowp_register_my_post_types() {
+	$supports = array('title', 'editor');
+	register_post_type( 'clients',
+		array(
+			'labels' => array( 'name' => 'Clients',
+							   'add_new' => "Add new Client",
+							   'add_new_item' => "Add new Client"
+			 					),
+			'supports' => $supports,
+			'public' => true
+		)
+	);
+}
 ?>

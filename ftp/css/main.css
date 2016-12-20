@@ -23,6 +23,11 @@
 	width: 320px;
 }
 
+.requied-field{
+	font-size: 18px;
+	color: red;
+}
+
 .consideritdone-pic{
 	display: block;
 	float: right;
@@ -53,6 +58,10 @@
 
 .consideritdone-form-line label input:focus{
 	background-color: #eee;
+}
+
+.checking-input-error{
+	background-color: #FDE !important;
 }
 
 .consideritdone-form-line label input,
